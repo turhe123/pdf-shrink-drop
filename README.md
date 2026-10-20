@@ -1,5 +1,7 @@
 # PdfShrinkDrop
 
+**🌐 Website:** [turhe123.github.io/pdf-shrink-drop](https://turhe123.github.io/pdf-shrink-drop/)
+
 Drop big PDFs onto the window or Dock icon and get smaller copies with a size preset and before and after sizes.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -37,7 +39,17 @@ PdfShrinkDrop is a free, open-source, 100% native, backend-free alternative to p
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-shrunk-results.png" alt="PdfShrinkDrop main window listing four compressed PDFs with before and after sizes" width="720"></p>
+
+<p align="center"><em>Four image-heavy PDFs shrunk with the Medium preset, each row showing its thumbnail, before and after size and the percentage saved.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-compressing.png" alt="PdfShrinkDrop compressing a batch of PDFs with a per-file progress bar" width="560"></p>
+
+<p align="center"><em>A batch in progress: finished files show their savings while the current file shows a progress bar and Cancel is available.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="PdfShrinkDrop Settings window with Custom preset sliders and output options" width="560"></p>
+
+<p align="center"><em>Settings with the Custom preset, offering sliders for max image size and JPEG quality plus output folder and Replace original options.</em></p>
 
 ## Install
 

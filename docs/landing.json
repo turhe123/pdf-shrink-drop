@@ -1,0 +1,60 @@
+{
+  "seo_title": "Drag-and-drop PDF compressor for macOS",
+  "seo_description": "PdfShrinkDrop is a free, open-source Mac app that shrinks PDFs. Drop files on the window or Dock icon, pick a preset and see before and after sizes.",
+  "hero_title_line1": "Drop big PDFs.",
+  "hero_title_accent": "Get smaller copies.",
+  "hero_sub": "Drag one or many PDFs onto the window or the Dock icon, pick Small, Medium or High, and press Command-Return. Every file shows its before and after size.",
+  "features_title": "Smaller PDFs, no detours.",
+  "features_sub": "Everything runs on your Mac with Apple frameworks, with no accounts, servers or uploads.",
+  "features": [
+    {
+      "icon": "download",
+      "title": "Drop on window or Dock",
+      "desc": "Drag in a batch of PDFs, use File, Open PDFs (Command-O), or click the drop area. Non-PDF files are skipped and duplicates are ignored."
+    },
+    {
+      "icon": "sliders",
+      "title": "Presets and custom sliders",
+      "desc": "Small, Medium and High set the image size and JPEG quality for you. Custom lets you choose 512 to 4096 px and 10 to 100 percent quality."
+    },
+    {
+      "icon": "image",
+      "title": "Before and after sizes",
+      "desc": "Each row shows a page-one thumbnail, a progress bar, the original and new size, the percentage saved and a Reveal in Finder button."
+    },
+    {
+      "icon": "folder",
+      "title": "Safe output handling",
+      "desc": "Copies are saved next to the original with a -shrunk suffix, or into a folder you choose. Replace original is off by default and moves the old file to the Trash first."
+    },
+    {
+      "icon": "shield",
+      "title": "Keeps the original if it's better",
+      "desc": "If a result would not be smaller, the original is kept and the row says already optimal. Corrupted files get an error row and locked PDFs offer an Unlock prompt, without stopping the batch."
+    },
+    {
+      "icon": "text",
+      "title": "Merge PDFs into one",
+      "desc": "Merge joins the files in your list, in list order, into a single PDF through a save panel. Cancel stops a job and discards partial output."
+    }
+  ],
+  "permissions_step": "No special permissions are required; macOS may show its usual prompt the first time the app reads a protected folder such as Desktop or Documents.",
+  "faq": [
+    {
+      "q": "Is PdfShrinkDrop really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is on GitHub. There are no accounts, subscriptions or in-app purchases, and an optional Support button opens a Ko-fi page in your browser."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None beyond normal file access. It does not use Accessibility, Screen Recording, the camera, the microphone or the network. It only reads the PDFs you drop or choose and writes to the output location you pick."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Your PDFs stay on your Mac. Compressed copies are written next to the originals or into the folder you choose, and your preset and output choices are remembered in the app's local settings. Nothing is uploaded and there is no analytics."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode and XcodeGen."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+[
+  {"file":"01-shrunk-results.png","caption":"Four image-heavy PDFs shrunk with the Medium preset, each row showing its thumbnail, before and after size and the percentage saved.","alt":"PdfShrinkDrop main window listing four compressed PDFs with before and after sizes"},
+  {"file":"02-compressing.png","caption":"A batch in progress: finished files show their savings while the current file shows a progress bar and Cancel is available.","alt":"PdfShrinkDrop compressing a batch of PDFs with a per-file progress bar"},
+  {"file":"03-settings.png","caption":"Settings with the Custom preset, offering sliders for max image size and JPEG quality plus output folder and Replace original options.","alt":"PdfShrinkDrop Settings window with Custom preset sliders and output options"}
+]
